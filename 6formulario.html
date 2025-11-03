@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Click Suey! - System of a Down Fansite</title>
+    <link rel="icon" type="image/png" href="./img/Click Suey.jpg">
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="index.html" class="logo">
+                <img width="80" height="80" src="./img/Click Suey.jpg" alt="logo" </a>
+
+                <nav class="navbar">
+                    <a href="1historia.html">História</a>
+                    <a href="2discografia.html">Discografia</a>
+                    <a href="3tuor.html">Tuor</a>
+                    <a href="4noticias.html">Notícias</a>
+                    <a href="5integrantes.html">Integrantes</a>
+                </nav>
+
+                <div class="icons">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/60/ffffff/search--v1.png"
+                        alt="search--v1" />
+                </div>
+                <div class="navlateral">
+                    <a href="index.html#click-suey">Click Suey!</a>
+                    <a href="index.html#sobre-nos">Sobre nós</a>
+                    <a href="index.html#pq-soad">Por que SOAD?</a>
+                    <a href="6formulario.html">Cadastro</a>
+                </div>
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section id="click-suey">
+            <a name="click-suey"></a>
+            <div class="content">
+                <h3>Click Suey - Cadastro.</h3>
+                <p>Cadastro de fãs para notícias e novidades!</p>
+            </div>
+        </section>
+    </div>
+
+    <section class="cadastro">
+        <div class="cadastro-container">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required placeholder="Digite seu nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Digite seu e-mail">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required placeholder="(DDD) 90000-0000">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" required min="10" max="120" placeholder="Digite sua idade">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" required placeholder="Sua cidade">
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" required placeholder="Seu estado">
+                <label for="musica">Música favorita:</label>
+                <input type="text" id="musica" required placeholder="Digite a música">
+                <label for="album">Álbum favorito:</label>
+                <input type="text" id="album" required placeholder="Digite o álbum">
+                <label for="show">Já foi a algum show?</label>
+                <select id="show" required>
+                    <option value="">Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <label for="rede">Sua rede social:</label>
+                <input type="text" id="rede" required placeholder="Instagram, TikTok...">
+                <label for="mensagem">Feedback:</label>
+                <textarea id="mensagem" rows="4" required placeholder="Escreva seu feedback"></textarea>
+                <label for="noticias">Deseja receber notícias por e-mail?</label>
+                <select id="noticias" required>
+                    <option value="">Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="containerfoot">
+            <ul>
+                <h3>Matheus Ean Arthur</h3>
+                <p>© 2025 Todos os direitos reservados.</p>
+                <div class="redes">
+                    <a href="https://www.instagram.com/_y4bujin/?hl=pt-br">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/ffffff/instagram-new--v1.png"
+                            alt="instagram-new--v1" /></a>
+                    <a href="https://github.com/MatheusArthur09">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/ffffff/github--v1.png"
+                            alt="github--v1" /></a>
+                </div>
+            </ul>
+            <ul>
+                <h3>Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Baixar</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+            <ul>
+                <h3>Suporte</h3>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Como Funciona</a></li>
+                <li><a href="#">Características</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Comunicando</a></li>
+            </ul>
+            <ul>
+                <h3>Nos contate</h3>
+                <li>
+                    <p>(12) 34567-8910</p>
+                </li>
+                <li>
+                    <p>matheuseanarthur@gmail.com</p>
+                </li>
+                <li>
+                    <p>Brasil</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
